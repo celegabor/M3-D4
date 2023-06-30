@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Agenzia Viaggi</title>
+</head>
+<body class="bg-info">
+
+    <div id="home"></div>
+    <!-- sezione nav -->
+    <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img class="logo" src="img/Unknown.jpeg" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contatti</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Altro
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#offerte">Offerta del giorno</a></li>
+                  <li><a class="dropdown-item" href="#welcome">Welcome summer</a></li>
+                  <li><a class="dropdown-item" href="#last-minute">Last minute</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#testimonial">TESTIMONIAL</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link">Help</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <hr class="hr">
+
+    <!-- sezione jumbotron -->
+    <section id="jumbotron" class="container mt-5">
+        <div class="jumbotron bg-secondary bg-gradient text-body p-2 rounded-5">
+            <h1 class="text-center display-4 text-primary-emphasis">Benvenuti sul nuovo sito web <u> AgenziaViaggi</u> ! </h1>
+            <p class="lead text-white text-center">AgenziaViaggi ti da tante opportunità di viaggio con enormi sconti sui tuoi viaggi.</p>
+            <hr class="my-4 " style="color: white;">
+            <p class="text-white text-center">Frase super convincente che ti fa incuriosire e visitare il sito</p>
+            <!-- <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <a class="col-4 btn btn-primary btn-lg rounded-5 border-2 border-white my-2" href="#offerte" role="button">Scopri di più</a>
+                    <div class="col-4"></div>
+            </div> -->
+            <div class="row">
+                <a class="m-auto w-25 col-4 btn btn-primary btn-lg rounded-5 border-2 border-white my-2" href="#offerte" role="button">Scopri di più</a>
+            </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <hr class="hr">
+
+    <!-- sezione card offerte -->
+    <section id="offerte" class="container mt-5 mb-5">
+        <h3 class="bg-secondary p-2 rounded-2 text-info text-center">
+            OFFERTE DEL GIORNO
+        </h3>
+
+        <!-- riga 1 -->
+        <div class="row">
+
+             <!-- 1 -->
+            <div class="card col-6 col-md-4 col-lg-3 m-auto mt-4" style="width: 18rem;">
+                <img src="img/deserto.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="social p-2 mb-3 rounded-2 bg-info">
+                    <i class="fa-brands fa-facebook" ></i>
+                    <i class="fa-brands fa-instagram" ></i>
+                    <i class="fa-brands fa-tiktok" ></i>
+                    <i class="fa-solid fa-share-nodes" ></i>
+
+                </div>
+
+            </div>
+
+             <!-- 2 -->
+            <div class="card col-6 col-md-4 col-lg-3 m-auto mt-4" style="width: 18rem;">
+                <img src="img/foresta.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="social p-2 mb-3 rounded-2 bg-info">
+                    <i class="fa-brands fa-facebook" ></i>
+                    <i class="fa-brands fa-instagram" ></i>
+                    <i class="fa-brands fa-tiktok" ></i>
+                    <i class="fa-solid fa-share-nodes" ></i>
+
+                </div>
+            </div>
+
+             <!-- 3 -->
+            <div class="card col-6 col-md-4 col-lg-3 m-auto mt-4" style="width: 18rem;">
+                <img src="img/mare.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="social p-2 mb-3 rounded-2 bg-info">
+                    <i class="fa-brands fa-facebook" ></i>
+                    <i class="fa-brands fa-instagram" ></i>
+                    <i class="fa-brands fa-tiktok" ></i>
+                    <i class="fa-solid fa-share-nodes" ></i>
+
+                </div>
+            </div>
+
+             <!-- 4 -->
+            <div class="card col-6 col-md-4 col-lg-3 m-auto mt-4" style="width: 18rem;">
+                    <img src="img/montagna.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="social p-2 mb-3 rounded-2 bg-info">
+                    <i class="fa-brands fa-facebook" ></i>
+                    <i class="fa-brands fa-instagram" ></i>
+                    <i class="fa-brands fa-tiktok" ></i>
+                    <i class="fa-solid fa-share-nodes" ></i>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- riga 2 -->
+        <div class="row">
+
+             <!-- 5 -->
+            <div class="card col-6 col-md-4 col-lg-3 m-auto mt-4" style="width: 18rem;">
+                <img src="img/montagna.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="social p-2 mb-3 rounded-2 bg-info">
+                    <i class="fa-brands fa-facebook" ></i>
+                    <i class="fa-brands fa-instagram" ></i>
+                    <i class="fa-brands fa-tiktok" ></i>
+                    <i class="fa-solid fa-share-nodes" ></i>
+
+                </div>
+            </div>
+
+             <!-- 6 -->
+            <div class="card col-6 col-md-4 col-lg-3 m-auto mt-4" style="width: 18rem;">
+                <img src="img/mare.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="social p-2 mb-3 rounded-2 bg-info">
+                    <i class="fa-brands fa-facebook" ></i>
+                    <i class="fa-brands fa-instagram" ></i>
+                    <i class="fa-brands fa-tiktok" ></i>
+                    <i class="fa-solid fa-share-nodes" ></i>
+
+                </div>
+            </div>
+
+             <!-- 7 -->
+            <div class="card col-6 col-md-4 col-lg-3 m-auto mt-4" style="width: 18rem;">
+                <img src="img/deserto.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="social p-2 mb-3 rounded-2 bg-info">
+                    <i class="fa-brands fa-facebook" ></i>
+                    <i class="fa-brands fa-instagram" ></i>
+                    <i class="fa-brands fa-tiktok" ></i>
+                    <i class="fa-solid fa-share-nodes" ></i>
+
+                </div>
+            </div>
+
+             <!-- 8 -->
+            <div class="card col-6 col-md-4 col-lg-3 m-auto mt-4" style="width: 18rem;">
+                <img src="img/foresta.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="social p-2 mb-3 rounded-2 bg-info">
+                    <i class="fa-brands fa-facebook" ></i>
+                    <i class="fa-brands fa-instagram" ></i>
+                    <i class="fa-brands fa-tiktok" ></i>
+                    <i class="fa-solid fa-share-nodes" ></i>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="hr">
+
+    <!-- welcome summer -->
+    
+    <section id="welcome" class="container-fluid mt-5 mb-5">
+        <h3 class="bg-secondary p-2 rounded-2 text-info text-center">
+            WELCOME SUMMER
+        </h3>
+
+        <div class="row p-3">
+            
+            <!-- 1 -->
+            <div class="col-12 col-md-4 col-lg-2 col-xl-2 m-auto mt-4">
+                <div class="card card-custom">
+                    <img src="img/deserto.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-12 col-md-4 col-lg-2 col-xl-2 m-auto mt-4">
+                <div class="card card-custom">
+                    <img src="img/foresta.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-12 col-md-4 col-lg-2 col-xl-2 m-auto mt-4">
+                <div class="card card-custom">
+                    <img src="img/mare.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-12 col-md-4 col-lg-2 col-xl-2 m-auto mt-4">
+                <div class="card card-custom">
+                    <img src="img/montagna.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="col-12 col-md-4 col-lg-2 col-xl-2 m-auto mt-4">
+                <div class="card card-custom">
+                    <img src="img/deserto.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="col-12 col-md-4 col-lg-2 col-xl-2 m-auto mt-4">
+                <div class="card card-custom">
+                    <img src="img/foresta.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- offerta del giorno -->
+    <section id="offerta-giorno" class="container d-none d-sm-block p-5 bg-white" id="giorno">
+        <div class="row">
+            <!-- img -->
+            <div class="col-8">
+                <img style="width: 100%; height:300px; object-fit:contain;" src="img/foresta.jpeg" alt="">
+            </div>
+
+            <!-- contenuto -->
+            <div class="col-4">
+
+                <div class="row">
+                    <!-- titolo -->
+                    <div class="col-12 p-3">
+                        <h3>Offerta del giorno</h3>
+                    </div>
+
+                    <!-- descrizione -->
+                    <div class="col-12 p-3">
+                        <p>L'offerta del giorno è Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, soluta id. Suscipit, veniam? Quod ex, quos recusandae nostrum harum magni consectetur ab similique sunt, illum neque quidem totam ratione dignissimos!</p>
+                    </div>
+
+                    <!-- prezzo -->
+                    <div class="col-12">
+                        <div class="row">
+
+                            <!-- cash -->
+                            <div class="col-6">
+                                <p>
+                                    1200$/settimana
+                                </p>
+                            </div>
+                            <!-- scopri di più -->
+                            <div class="col-6">
+                                <a href="#" class="btn btn-primary">scopri di più</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- last minute -->
+    <section id="last-minute" class="container-fluid">
+        <div class="row p-5">
+            <h3 class="bg-secondary p-2 rounded-2 text-info text-center">
+               LAST MINUTE
+            </h3>
+    
+
+            <!-- 1 -->
+            <div class="card col-12 col-sm-6 col-xl-2 mt-3 mb-3">
+                <img src="img/deserto.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="card col-12 col-sm-6 col-lg-2 mt-3 mb-3">
+            <img src="img/foresta.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="card col-12 col-sm-6 col-lg-2 mt-3 mb-3">
+            <img src="img/mare.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="card col-12 col-sm-6 col-lg-2 mt-3 mb-3">
+            <img src="img/montagna.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="card col-12 col-sm-6 col-lg-2 mt-3 mb-3">
+                <img src="img/deserto.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="card col-12 col-sm-6 col-lg-2 mt-3 mb-3">
+            <img src="img/foresta.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="card col-12 col-sm-6 col-lg-2 mt-3 mb-3">
+            <img src="img/mare.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="card col-12 col-sm-6 col-lg-2 mt-3 mb-3">
+            <img src="img/montagna.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- testimonial -->
+
+    <section id="testimonial" class="container-fluid p-5 bg-white">
+        <div class="row bg-dark p-5 custom-img">
+
+            <h3 class="bg-secondary p-2 rounded-2 text-info">
+                TESTIMONIAL
+             </h3>
+            <!-- carosello #1 -->
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+
+                        <div class="text-center p-5">
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffaa00;"></i>
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffaa00;"></i>
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffaa00;"></i>
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffaa00;"></i>
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffaa00;"></i>
+                        </div>
+
+                    <div class="carousel-item active p-3">
+                        <div class="card col-12">
+                            <img src="img/avatar.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">TESTIMONIANZA #1</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item p-3">
+                        <div class="card col-12">
+                            <img src="img/circus.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">TESTIMONIANZA #2</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item p-3">
+                        <div class="card col-12">
+                            <img src="img/cabin.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">TESTIMONIANZA #3</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- carosello #2 -->
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div id="carouselExampleIndicators2" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+
+                        <div class="text-center p-5">
+                            
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffaa00;"></i>
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffaa00;"></i>
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffaa00;"></i>
+                            
+                        </div>
+
+                    <div class="carousel-item active p-3">
+                        <div class="card col-12">
+                            <img src="img/circus.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">TESTIMONIANZA #1</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item p-3">
+                        <div class="card col-12">
+                            <img src="img/avatar.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">TESTIMONIANZA #2</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item p-3">
+                        <div class="card col-12">
+                            <img src="img/cabin.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">TESTIMONIANZA #3</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- carosello #3 -->
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div id="carouselExampleIndicators3" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+
+                        <div class="text-center p-5">
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffaa00;"></i>
+                            
+                        </div>
+
+                    <div class="carousel-item active p-3">
+                        <div class="card col-12">
+                            <img src="img/cabin.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">TESTIMONIANZA #1</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item p-3">
+                        <div class="card col-12">
+                            <img src="img/circus.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">TESTIMONIANZA #2</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item p-3">
+                        <div class="card col-12">
+                            <img src="img/avatar.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">TESTIMONIANZA #3</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+      
+
+
+    <footer id="footer" class="p-5">
+        <div class="row">
+
+            <div class="col-12 col-sm-12 col-md-4 p-5 mt-5 mb-5 text-sm-center">
+                <i class="p-3 fa-brands fa-facebook fa-2xl" ></i>
+                <i class="p-3 fa-brands fa-instagram fa-2xl" ></i>
+                <i class="p-3 fa-brands fa-tiktok fa-2xl" ></i>
+                <i class="p-3 fa-solid fa-share-nodes fa-2xl" ></i>
+            </div>
+
+            <a id="myButton" class="m-auto col-12 col-sm-12 col-md-4 btn btn-primary btn-lg rounded-5 border-2 border-white my-2 mt-5 mb-5 text-sm-center" >Contattaci</a>
+
+              
+
+            <div class="row col-12 col-sm-12 col-md-4 mt-5 mb-5 text-sm-center">
+                <div class="row">
+                    <i class="col-1 fa-brands fa-whatsapp fa-2xl" style="color: green;" ></i>
+                    <p class=" col-6">123123123123</p>
+                </div>
+                <div class="row">
+                    <i class="col-1 fa-solid fa-envelope-open-text fa-2xl" style="color: #919191;"></i>
+                    <p class=" col-6">info@info.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/1ec4c907d2.js" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</html>
