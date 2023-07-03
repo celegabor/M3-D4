@@ -49,3 +49,23 @@ img{
     object-fit: cover;
     height: 300px;
 }
+.bottone{
+    margin: 10px;
+    background-color: rgb(237, 108, 108);
+    color: white;
+    border: none;
+    padding: 5px;
+    filter: drop-shadow(1px 1px 5px black);
+    display: block;
+}
+.bottone:hover{
+    background-color: red;
+    color: antiquewhite;
+}
+.bottone:active{
+    background-color: green;
+}
+
+.bg-none{
+    background-color: none;
+}
